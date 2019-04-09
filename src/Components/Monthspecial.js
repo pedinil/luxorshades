@@ -1,4 +1,5 @@
 import React ,{Component} from 'react';
+import LineSvg from '../Pages/Line.svg';
 
 class Monthspecial extends Component{
     render(){
@@ -8,7 +9,7 @@ class Monthspecial extends Component{
         <div class="container">
             <h1 class="header-txt">This month specials</h1>
             <div class="divider">
-           
+                <img src={LineSvg} />
                 {/*
                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1930 255.5" style="enable-background:new 0 0 1930 255.5;" xml:space="preserve">
                   

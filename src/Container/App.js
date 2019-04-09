@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import About from './../Components/About';
-import Monthspecial from './../Components/Monthspecial';
-import Slider from "react-slick";
+import HeadSlider from '../Pages/HeadSlider';
+import Monthspecial from '../Components/Monthspecial';
+import About from '../Components/About';
+import LineSvg from '../Pages/Line.svg';
 
 class App extends Component {
   render() {
@@ -44,6 +45,7 @@ class App extends Component {
 
                        
                         <div class="divider">
+                        <img src={LineSvg} />
                          {/*
                      
                             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1930 255.5" style="enable-background:new 0 0 1930 255.5;" xml:space="preserve">
@@ -75,6 +77,7 @@ class App extends Component {
                     <div class="bottom-section">
                         <h1 class="header-txt">Dandelion cucumber earthnut pea peanut soko zucchini</h1>
                         <div class="divider">
+                        <img src={LineSvg} />
                         {/*
                             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1930 255.5" style="enable-background:new 0 0 1930 255.5;" xml:space="preserve">
                              
@@ -135,6 +138,7 @@ class App extends Component {
         <div class="container">
             <h1 class="header-txt">Menu Cart</h1>
             <div class="divider">
+            <img src={LineSvg} />
                 {/*
                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1930 255.5" style="enable-background:new 0 0 1930 255.5;" xml:space="preserve">
                
@@ -467,6 +471,7 @@ class App extends Component {
             <div class="footer-content">
                 <h1 class="header-txt scroll-reveal">Contact</h1>
                 <div class="divider scroll-reveal">
+                <img src={LineSvg} />
                   {/*
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1930 255.5" style="enable-background:new 0 0 1930 255.5;" xml:space="preserve">
                     
