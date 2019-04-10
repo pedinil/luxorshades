@@ -1,5 +1,5 @@
 import React ,{Component} from 'react';
-import LineSvg from './Line.svg';
+import LineSvg from '../Svg/Line.svg';
 
 class Monthspecial extends Component{
     render(){

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import LineSvg from './Line.svg'
+import LineSvg from '../Svg/Line.svg'
 
 
 export default class HeadSlider extends Component {
