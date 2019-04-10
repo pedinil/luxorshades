@@ -17,22 +17,22 @@ export default class HeadSlider extends Component {
             <div>
                 <Slider {...settings} className="slider">
 
-                    <div class="a-slide slide1">
-                        <div class="container">
-                            <div class="bottom-section scroll-reveal" data-origin="right" data-distance="20%">
-                                <h1 class="header-txt">Veggie gram fava bean leek dandelion silver beet eggplant bush tomato</h1>
-                                <div class="divider">
+                    <div className="a-slide slide1">
+                        <div className="container">
+                            <div className="bottom-section scroll-reveal" data-origin="right" data-distance="20%">
+                                <h1 className="header-txt">Veggie gram fava bean leek dandelion silver beet eggplant bush tomato</h1>
+                                <div className="divider">
                                     <img src={LineSvg} />
                                 </div>
                             </div>
 
                         </div>
                     </div>
-                    <div class="a-slide slide2">
-                        <div class="container">
-                            <div class="bottom-section">
-                                <h1 class="header-txt">Dandelion cucumber earthnut pea peanut soko zucchini</h1>
-                                <div class="divider">
+                    <div className="a-slide slide2">
+                        <div className="container">
+                            <div className="bottom-section">
+                                <h1 className="header-txt">Dandelion cucumber earthnut pea peanut soko zucchini</h1>
+                                <div className="divider">
                                     <img src={LineSvg} />
                                 </div>
 
